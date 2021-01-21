@@ -1,0 +1,9 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# GoogleService
+
+/MyTikTokApp/GoogleService-Info.plist
+/MyTikTokApp.xcworkspace
+/MyTikTokApp.xcodeproj
+/Pods
+/MyTikTokApp/Info.plist
