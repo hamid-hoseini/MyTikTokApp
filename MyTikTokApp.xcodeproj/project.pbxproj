@@ -23,7 +23,6 @@
 		2B12DD1E25B3FFCA00393DE4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DD1D25B3FFCA00393DE4 /* SettingsViewController.swift */; };
 		2B12DD2125B4004600393DE4 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DD2025B4004600393DE4 /* TabBarViewController.swift */; };
 		2B12DD2625B4028E00393DE4 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DD2525B4028E00393DE4 /* PostViewController.swift */; };
-		2B12DD2925B402C800393DE4 /* APICallers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DD2825B402C800393DE4 /* APICallers.swift */; };
 		2B12DD2C25B402E600393DE4 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DD2B25B402E600393DE4 /* StorageManager.swift */; };
 		2B12DD2F25B4030E00393DE4 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DD2E25B4030E00393DE4 /* DatabaseManager.swift */; };
 		2B12DD3225B4033B00393DE4 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DD3125B4033B00393DE4 /* AuthenticationManager.swift */; };
@@ -51,7 +50,6 @@
 		2B12DD1D25B3FFCA00393DE4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		2B12DD2025B4004600393DE4 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		2B12DD2525B4028E00393DE4 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		2B12DD2825B402C800393DE4 /* APICallers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallers.swift; sourceTree = "<group>"; };
 		2B12DD2B25B402E600393DE4 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		2B12DD2E25B4030E00393DE4 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		2B12DD3125B4033B00393DE4 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 		2B12DD0125B3F5AF00393DE4 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				2B12DD2825B402C800393DE4 /* APICallers.swift */,
 				2B12DD2B25B402E600393DE4 /* StorageManager.swift */,
 				2B12DD2E25B4030E00393DE4 /* DatabaseManager.swift */,
 				2B12DD3125B4033B00393DE4 /* AuthenticationManager.swift */,
@@ -345,7 +342,6 @@
 				2B12DD0C25B3FF2F00393DE4 /* CameraViewController.swift in Sources */,
 				2B12DD2125B4004600393DE4 /* TabBarViewController.swift in Sources */,
 				2B12DCF025B3EE0500393DE4 /* HomeViewController.swift in Sources */,
-				2B12DD2925B402C800393DE4 /* APICallers.swift in Sources */,
 				2B12DD1B25B3FFAF00393DE4 /* SignUpViewController.swift in Sources */,
 				2B12DD3225B4033B00393DE4 /* AuthenticationManager.swift in Sources */,
 				2B12DD0F25B3FF4500393DE4 /* NotificationsViewController.swift in Sources */,
