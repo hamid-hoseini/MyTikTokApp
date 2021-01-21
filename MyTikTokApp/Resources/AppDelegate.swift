@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         let window = UIWindow(frame: UIScreen.main.bounds)  // whole the screen
-        window.rootViewController = HomeViewController()
+        window.rootViewController = TabBarViewController()
         self.window = window
         self.window?.makeKeyAndVisible()
         
