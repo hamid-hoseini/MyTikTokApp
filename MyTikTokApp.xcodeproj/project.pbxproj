@@ -33,6 +33,7 @@
 		2B1C42F225C2677800B67305 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C42F125C2677800B67305 /* CommentsViewController.swift */; };
 		2B1C42F525C29F5000B67305 /* PostComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C42F425C29F5000B67305 /* PostComment.swift */; };
 		2B1C42F825C29F8800B67305 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C42F725C29F8800B67305 /* User.swift */; };
+		2B1C42FB25C4BCF500B67305 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C42FA25C4BCF500B67305 /* CommentTableViewCell.swift */; };
 		9BBB6F6704BAFB4BED34AFA3 /* Pods_MyTikTokApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707B713F217966F32CF411DB /* Pods_MyTikTokApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		2B1C42F125C2677800B67305 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
 		2B1C42F425C29F5000B67305 /* PostComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostComment.swift; sourceTree = "<group>"; };
 		2B1C42F725C29F8800B67305 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2B1C42FA25C4BCF500B67305 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 		303C44409A51331D4BF5E01E /* Pods-MyTikTokApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTikTokApp.release.xcconfig"; path = "Target Support Files/Pods-MyTikTokApp/Pods-MyTikTokApp.release.xcconfig"; sourceTree = "<group>"; };
 		707B713F217966F32CF411DB /* Pods_MyTikTokApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTikTokApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A7ED323E886D35481F8722 /* Pods-MyTikTokApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTikTokApp.debug.xcconfig"; path = "Target Support Files/Pods-MyTikTokApp/Pods-MyTikTokApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				2B12DD2425B4006400393DE4 /* StoryBoards */,
+				2B1C42FA25C4BCF500B67305 /* CommentTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				2B12DD3525B4037500393DE4 /* HapticsManager.swift in Sources */,
 				2B12DD2F25B4030E00393DE4 /* DatabaseManager.swift in Sources */,
 				2B12DD0925B3FF1F00393DE4 /* ExploreViewController.swift in Sources */,
+				2B1C42FB25C4BCF500B67305 /* CommentTableViewCell.swift in Sources */,
 				2B12DD5125BD0E7900393DE4 /* extension.swift in Sources */,
 				2B12DD1525B3FF8800393DE4 /* UserListViewController.swift in Sources */,
 				2B12DD1E25B3FFCA00393DE4 /* SettingsViewController.swift in Sources */,
