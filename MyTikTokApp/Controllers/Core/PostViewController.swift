@@ -9,6 +9,7 @@ import UIKit
 
 protocol PostViewControllerDelegate: AnyObject {
     func postViewController(_ vc: PostViewController, didTapCommentButtonFor post: PostModel)
+    func postViewController(_ vc: PostViewController, didTapProfileButtonFor post: PostModel)
 }
 
 class PostViewController: UIViewController {
@@ -51,6 +52,15 @@ class PostViewController: UIViewController {
         return label
     }()
     
+    private let profileButton: UIButton = {
+       let button = UIButton()
+        button.setBackgroundImage(UIImage(named: "test"), for: .normal)
+        button.tintColor = .white
+        button.layer.masksToBounds = true
+        button.imageView?.contentMode = .scaleAspectFill
+        return button
+    }()
+    
     // MARK: - Init
     
     init(model: PostModel) {
@@ -71,6 +81,8 @@ class PostViewController: UIViewController {
         setupButtons()
         setupDoubleTapToLike()
         view.addSubview(captionLabel)
+        view.addSubview(profileButton)
+        profileButton.addTarget(self, action: #selector(didTapProfileButton), for: .touchUpInside)
 
     }
 
@@ -89,6 +101,13 @@ class PostViewController: UIViewController {
                                     y: view.height - 10 - view.safeAreaInsets.bottom - labelSize.height - (tabBarController?.tabBar.height ?? 0),
                                     width: view.width - size - 12,
                                     height: labelSize.height)
+        
+        profileButton.frame = CGRect(x: likeButton.left,
+                                     y: likeButton.top - 10 - size,
+                                     width: size,
+                                     height: size)
+        
+        profileButton.layer.cornerRadius = size / 2
     }
     
     func setupButtons() {
@@ -118,6 +137,10 @@ class PostViewController: UIViewController {
         
         let vc = UIActivityViewController(activityItems: [url], applicationActivities: [])
         present(vc, animated: true)
+    }
+    
+    @objc private func didTapProfileButton() {
+        delegate?.postViewController(self, didTapProfileButtonFor: model)
     }
     
     func setupDoubleTapToLike() {
