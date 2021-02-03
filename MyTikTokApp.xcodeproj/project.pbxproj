@@ -34,6 +34,7 @@
 		2B1C42F525C29F5000B67305 /* PostComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C42F425C29F5000B67305 /* PostComment.swift */; };
 		2B1C42F825C29F8800B67305 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C42F725C29F8800B67305 /* User.swift */; };
 		2B1C42FB25C4BCF500B67305 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C42FA25C4BCF500B67305 /* CommentTableViewCell.swift */; };
+		2B75AB6D25CA810A002EF290 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2B75AB6C25CA810A002EF290 /* video.mp4 */; };
 		9BBB6F6704BAFB4BED34AFA3 /* Pods_MyTikTokApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707B713F217966F32CF411DB /* Pods_MyTikTokApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		2B1C42F425C29F5000B67305 /* PostComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostComment.swift; sourceTree = "<group>"; };
 		2B1C42F725C29F8800B67305 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2B1C42FA25C4BCF500B67305 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		2B75AB6C25CA810A002EF290 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		303C44409A51331D4BF5E01E /* Pods-MyTikTokApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTikTokApp.release.xcconfig"; path = "Target Support Files/Pods-MyTikTokApp/Pods-MyTikTokApp.release.xcconfig"; sourceTree = "<group>"; };
 		707B713F217966F32CF411DB /* Pods_MyTikTokApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTikTokApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A7ED323E886D35481F8722 /* Pods-MyTikTokApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTikTokApp.debug.xcconfig"; path = "Target Support Files/Pods-MyTikTokApp/Pods-MyTikTokApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 		2B12DD0625B3F5F900393DE4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2B75AB6C25CA810A002EF290 /* video.mp4 */,
 				2B12DD4925B82EEC00393DE4 /* GoogleService-Info.plist */,
 				2B12DCEB25B3EE0500393DE4 /* AppDelegate.swift */,
 				2B12DCF425B3EE0800393DE4 /* Assets.xcassets */,
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B12DCF825B3EE0800393DE4 /* LaunchScreen.storyboard in Resources */,
+				2B75AB6D25CA810A002EF290 /* video.mp4 in Resources */,
 				2B12DCF525B3EE0800393DE4 /* Assets.xcassets in Resources */,
 				2B12DCF325B3EE0500393DE4 /* Main.storyboard in Resources */,
 				2B12DD4A25B82EEC00393DE4 /* GoogleService-Info.plist in Resources */,
