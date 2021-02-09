@@ -23,7 +23,6 @@ class TabBarViewController: UITabBarController {
         let profile = ProfileViewController(user: User(username: "hamid", profilePictureURL: nil, identifier: "abc123"))
         
         //home.title = "Home"
-        explore.title = "Explore"
         notifications.title = "Notifications"
         profile.title = "Profile"
         
