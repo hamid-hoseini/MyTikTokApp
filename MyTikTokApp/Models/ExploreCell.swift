@@ -11,6 +11,6 @@ import UIKit
 enum ExploreCell {
     case banner(viewModel: ExploreBannerViewModel)
     case post(viewModel: ExplorePostViewModel)
-    case hasjtag(viewModel: ExploreHashtagViewModel)
+    case hashtag(viewModel: ExploreHashtagViewModel)
     case user(viewModel: ExploreUserViewModel)
 }

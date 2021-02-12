@@ -9,5 +9,5 @@ import Foundation
 
 struct ExploreSection {
     let type: ExploreSectionType
-    let cell: [ExploreCell]
+    let cells: [ExploreCell]
 }
