@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0A3E5825F1A7B40042B9BD /* ExploreBannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A3E5725F1A7B40042B9BD /* ExploreBannerCollectionViewCell.swift */; };
+		2B0A3E5B25F1A7D40042B9BD /* ExploreHashtagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A3E5A25F1A7D40042B9BD /* ExploreHashtagCollectionViewCell.swift */; };
+		2B0A3E5E25F1A7E50042B9BD /* ExplorePostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A3E5D25F1A7E50042B9BD /* ExplorePostCollectionViewCell.swift */; };
+		2B0A3E6125F1A7FE0042B9BD /* ExploreUserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A3E6025F1A7FE0042B9BD /* ExploreUserCollectionViewCell.swift */; };
 		2B12DCEC25B3EE0500393DE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DCEB25B3EE0500393DE4 /* AppDelegate.swift */; };
 		2B12DCEE25B3EE0500393DE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DCED25B3EE0500393DE4 /* SceneDelegate.swift */; };
 		2B12DCF025B3EE0500393DE4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DCEF25B3EE0500393DE4 /* HomeViewController.swift */; };
@@ -46,6 +50,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B0A3E5725F1A7B40042B9BD /* ExploreBannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreBannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		2B0A3E5A25F1A7D40042B9BD /* ExploreHashtagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreHashtagCollectionViewCell.swift; sourceTree = "<group>"; };
+		2B0A3E5D25F1A7E50042B9BD /* ExplorePostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePostCollectionViewCell.swift; sourceTree = "<group>"; };
+		2B0A3E6025F1A7FE0042B9BD /* ExploreUserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreUserCollectionViewCell.swift; sourceTree = "<group>"; };
 		2B12DCE825B3EE0500393DE4 /* MyTikTokApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTikTokApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B12DCEB25B3EE0500393DE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B12DCED25B3EE0500393DE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -172,6 +180,10 @@
 			children = (
 				2B12DD2425B4006400393DE4 /* StoryBoards */,
 				2B1C42FA25C4BCF500B67305 /* CommentTableViewCell.swift */,
+				2B0A3E5725F1A7B40042B9BD /* ExploreBannerCollectionViewCell.swift */,
+				2B0A3E5A25F1A7D40042B9BD /* ExploreHashtagCollectionViewCell.swift */,
+				2B0A3E5D25F1A7E50042B9BD /* ExplorePostCollectionViewCell.swift */,
+				2B0A3E6025F1A7FE0042B9BD /* ExploreUserCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -383,8 +395,11 @@
 				2B1C42FB25C4BCF500B67305 /* CommentTableViewCell.swift in Sources */,
 				2B12DD5125BD0E7900393DE4 /* extension.swift in Sources */,
 				2B12DD1525B3FF8800393DE4 /* UserListViewController.swift in Sources */,
+				2B0A3E5B25F1A7D40042B9BD /* ExploreHashtagCollectionViewCell.swift in Sources */,
 				2B75AB7F25D27003002EF290 /* ExploreHashtagViewModel.swift in Sources */,
 				2B12DD1E25B3FFCA00393DE4 /* SettingsViewController.swift in Sources */,
+				2B0A3E5825F1A7B40042B9BD /* ExploreBannerCollectionViewCell.swift in Sources */,
+				2B0A3E5E25F1A7E50042B9BD /* ExplorePostCollectionViewCell.swift in Sources */,
 				2B12DD2625B4028E00393DE4 /* PostViewController.swift in Sources */,
 				2B12DD0C25B3FF2F00393DE4 /* CameraViewController.swift in Sources */,
 				2B75AB7C25D26FD8002EF290 /* ExplorePostViewModel.swift in Sources */,
@@ -394,6 +409,7 @@
 				2B75AB8225D27036002EF290 /* ExploreUserViewModel.swift in Sources */,
 				2B12DD2125B4004600393DE4 /* TabBarViewController.swift in Sources */,
 				2B1C42F825C29F8800B67305 /* User.swift in Sources */,
+				2B0A3E6125F1A7FE0042B9BD /* ExploreUserCollectionViewCell.swift in Sources */,
 				2B12DCF025B3EE0500393DE4 /* HomeViewController.swift in Sources */,
 				2B12DD1B25B3FFAF00393DE4 /* SignUpViewController.swift in Sources */,
 				2B12DD3225B4033B00393DE4 /* AuthenticationManager.swift in Sources */,
