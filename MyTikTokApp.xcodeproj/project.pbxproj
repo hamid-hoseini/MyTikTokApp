@@ -11,6 +11,8 @@
 		2B0A3E5B25F1A7D40042B9BD /* ExploreHashtagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A3E5A25F1A7D40042B9BD /* ExploreHashtagCollectionViewCell.swift */; };
 		2B0A3E5E25F1A7E50042B9BD /* ExplorePostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A3E5D25F1A7E50042B9BD /* ExplorePostCollectionViewCell.swift */; };
 		2B0A3E6125F1A7FE0042B9BD /* ExploreUserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A3E6025F1A7FE0042B9BD /* ExploreUserCollectionViewCell.swift */; };
+		2B0A3E6425F3182D0042B9BD /* explore.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B0A3E6325F3182D0042B9BD /* explore.json */; };
+		2B0A3E6725F319C10042B9BD /* ExploreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A3E6625F319C10042B9BD /* ExploreManager.swift */; };
 		2B12DCEC25B3EE0500393DE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DCEB25B3EE0500393DE4 /* AppDelegate.swift */; };
 		2B12DCEE25B3EE0500393DE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DCED25B3EE0500393DE4 /* SceneDelegate.swift */; };
 		2B12DCF025B3EE0500393DE4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DCEF25B3EE0500393DE4 /* HomeViewController.swift */; };
@@ -54,6 +56,8 @@
 		2B0A3E5A25F1A7D40042B9BD /* ExploreHashtagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreHashtagCollectionViewCell.swift; sourceTree = "<group>"; };
 		2B0A3E5D25F1A7E50042B9BD /* ExplorePostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePostCollectionViewCell.swift; sourceTree = "<group>"; };
 		2B0A3E6025F1A7FE0042B9BD /* ExploreUserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreUserCollectionViewCell.swift; sourceTree = "<group>"; };
+		2B0A3E6325F3182D0042B9BD /* explore.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = explore.json; sourceTree = "<group>"; };
+		2B0A3E6625F319C10042B9BD /* ExploreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreManager.swift; sourceTree = "<group>"; };
 		2B12DCE825B3EE0500393DE4 /* MyTikTokApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTikTokApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B12DCEB25B3EE0500393DE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B12DCED25B3EE0500393DE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +151,7 @@
 				2B12DD2E25B4030E00393DE4 /* DatabaseManager.swift */,
 				2B12DD3125B4033B00393DE4 /* AuthenticationManager.swift */,
 				2B12DD3425B4037500393DE4 /* HapticsManager.swift */,
+				2B0A3E6625F319C10042B9BD /* ExploreManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 		2B12DD0625B3F5F900393DE4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2B0A3E6325F3182D0042B9BD /* explore.json */,
 				2B75AB6C25CA810A002EF290 /* video.mp4 */,
 				2B12DD4925B82EEC00393DE4 /* GoogleService-Info.plist */,
 				2B12DCEB25B3EE0500393DE4 /* AppDelegate.swift */,
@@ -315,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B12DCF825B3EE0800393DE4 /* LaunchScreen.storyboard in Resources */,
+				2B0A3E6425F3182D0042B9BD /* explore.json in Resources */,
 				2B75AB6D25CA810A002EF290 /* video.mp4 in Resources */,
 				2B12DCF525B3EE0800393DE4 /* Assets.xcassets in Resources */,
 				2B12DCF325B3EE0500393DE4 /* Main.storyboard in Resources */,
@@ -400,6 +407,7 @@
 				2B12DD1E25B3FFCA00393DE4 /* SettingsViewController.swift in Sources */,
 				2B0A3E5825F1A7B40042B9BD /* ExploreBannerCollectionViewCell.swift in Sources */,
 				2B0A3E5E25F1A7E50042B9BD /* ExplorePostCollectionViewCell.swift in Sources */,
+				2B0A3E6725F319C10042B9BD /* ExploreManager.swift in Sources */,
 				2B12DD2625B4028E00393DE4 /* PostViewController.swift in Sources */,
 				2B12DD0C25B3FF2F00393DE4 /* CameraViewController.swift in Sources */,
 				2B75AB7C25D26FD8002EF290 /* ExplorePostViewModel.swift in Sources */,
