@@ -40,6 +40,8 @@
 		2B1C42F525C29F5000B67305 /* PostComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C42F425C29F5000B67305 /* PostComment.swift */; };
 		2B1C42F825C29F8800B67305 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C42F725C29F8800B67305 /* User.swift */; };
 		2B1C42FB25C4BCF500B67305 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C42FA25C4BCF500B67305 /* CommentTableViewCell.swift */; };
+		2B3D53642612F32600D12912 /* AuthField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D53632612F32600D12912 /* AuthField.swift */; };
+		2B3D53672612F37100D12912 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D53662612F37100D12912 /* AuthButton.swift */; };
 		2B75AB6D25CA810A002EF290 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2B75AB6C25CA810A002EF290 /* video.mp4 */; };
 		2B75AB7025D26CB6002EF290 /* ExploreSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B75AB6F25D26CB6002EF290 /* ExploreSection.swift */; };
 		2B75AB7325D26CF5002EF290 /* ExploreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B75AB7225D26CF5002EF290 /* ExploreCell.swift */; };
@@ -87,6 +89,8 @@
 		2B1C42F425C29F5000B67305 /* PostComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostComment.swift; sourceTree = "<group>"; };
 		2B1C42F725C29F8800B67305 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2B1C42FA25C4BCF500B67305 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		2B3D53632612F32600D12912 /* AuthField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthField.swift; sourceTree = "<group>"; };
+		2B3D53662612F37100D12912 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 		2B75AB6C25CA810A002EF290 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		2B75AB6F25D26CB6002EF290 /* ExploreSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSection.swift; sourceTree = "<group>"; };
 		2B75AB7225D26CF5002EF290 /* ExploreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCell.swift; sourceTree = "<group>"; };
@@ -189,6 +193,8 @@
 				2B0A3E5A25F1A7D40042B9BD /* ExploreHashtagCollectionViewCell.swift */,
 				2B0A3E5D25F1A7E50042B9BD /* ExplorePostCollectionViewCell.swift */,
 				2B0A3E6025F1A7FE0042B9BD /* ExploreUserCollectionViewCell.swift */,
+				2B3D53632612F32600D12912 /* AuthField.swift */,
+				2B3D53662612F37100D12912 /* AuthButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -395,6 +401,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3D53672612F37100D12912 /* AuthButton.swift in Sources */,
+				2B3D53642612F32600D12912 /* AuthField.swift in Sources */,
 				2B12DD3525B4037500393DE4 /* HapticsManager.swift in Sources */,
 				2B12DD2F25B4030E00393DE4 /* DatabaseManager.swift in Sources */,
 				2B12DD0925B3FF1F00393DE4 /* ExploreViewController.swift in Sources */,
