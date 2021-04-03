@@ -40,6 +40,11 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         configureButtons()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        emailField.becomeFirstResponder()
+    }
+    
     private func addSubview() {
         view.addSubview(logoImageView)
         view.addSubview(emailField)
@@ -58,6 +63,9 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
             UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil),
             UIBarButtonItem(title: "Bar", style: .done, target: self, action: #selector(didTabKeyboardDone))
         ]
+        toolBar.sizeToFit()
+        emailField.inputAccessoryView = toolBar
+        passwordField.inputAccessoryView = toolBar
     }
     
     private func configureButtons() {
@@ -109,7 +117,6 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
             else {
                 // show error
             }
-            
         }
     }
     
