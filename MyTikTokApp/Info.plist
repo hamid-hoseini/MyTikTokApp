@@ -62,5 +62,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Please allow access to record video.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Please allow access to record video.</string>
 </dict>
 </plist>
